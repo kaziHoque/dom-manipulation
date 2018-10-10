@@ -19,4 +19,22 @@ textBtn.addEventListener('click', function(event){
 })
 
 
+
+function changeBGcolor(event)
+{
+    var body = document.getElementsByTagName('body')[0];
+    // if(event.target.innerText == 'Red')
+    // {
+    //     body.style.background = 'red';
+    // }
+    // if(event.target.innerText == 'Green')
+    // {
+    //     body.style.background = 'green';
+    // }
+    
+    body.style.backgroundColor = event.target.innerText.toLowerCase();
+    
+}
+
+
 /* Task 4 using jQuery */
